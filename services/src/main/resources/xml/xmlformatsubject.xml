@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<subjects>
+    <subject>
+        <id>4</id>
+        <name>АЭВМ</name>
+    </subject>
+    <subject>
+        <id>9</id>
+        <name>КИТ</name>
+    </subject>
+    <subject>
+        <id>1</id>
+        <name>Матем</name>
+    </subject>
+    <subject>
+        <id>5</id>
+        <name>ОАиП</name>
+    </subject>
+    <subject>
+        <id>6</id>
+        <name>ООП</name>
+    </subject>
+    <subject>
+        <id>7</id>
+        <name>СПО</name>
+    </subject>
+    <subject>
+        <id>8</id>
+        <name>ТГ</name>
+    </subject>
+    <subject>
+        <id>2</id>
+        <name>Физика</name>
+    </subject>
+    <subject>
+        <id>3</id>
+        <name>Философия</name>
+    </subject>
+</subjects>

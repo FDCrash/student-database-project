@@ -1,0 +1,233 @@
+2019-04-11 14:41:00.686  INFO 10180 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 10180 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-11 14:41:00.702 DEBUG 10180 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-11 14:41:00.702  INFO 10180 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-11 14:41:10.795  INFO 10180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-11 14:41:10.795  INFO 10180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-11 14:41:11.342  INFO 10180 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-11 14:41:13.357  INFO 10180 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-11 14:41:14.357  INFO 10180 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-11 14:41:14.357  INFO 10180 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-11 14:41:14.357  INFO 10180 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-11 14:41:14.842  INFO 10180 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-11 14:41:16.373  INFO 10180 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-11 14:41:19.091  INFO 10180 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-11 14:41:23.560  INFO 10180 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-11 14:41:24.966  INFO 10180 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-11 14:41:25.028  INFO 10180 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-11 14:41:25.231  INFO 10180 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-11 14:41:25.497  INFO 10180 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-11 14:41:25.903  INFO 10180 --- [main] com.netcracker.denisik.Application       : Started Application in 26.748 seconds (JVM running for 34.126)
+2019-04-11 14:42:00.452  INFO 10180 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-11 14:42:23.699  INFO 10180 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-11 14:42:24.420 DEBUG 10180 --- [http-nio-8080-exec-4] c.n.d.s.i.StudentServiceImpl             : Getting students from DB
+2019-04-11 14:42:24.420 DEBUG 10180 --- [http-nio-8080-exec-4] c.n.d.s.i.StudentServiceImpl             : To Json operation students
+2019-04-11 14:42:24.450 DEBUG 10180 --- [http-nio-8080-exec-4] c.n.d.s.i.StudentServiceImpl             : To XML operation students
+2019-04-11 14:42:24.784 DEBUG 10180 --- [http-nio-8080-exec-4] c.n.d.s.i.StudentServiceImpl             : To Excel operation students
+2019-04-11 14:42:41.061 DEBUG 10180 --- [http-nio-8080-exec-6] c.n.d.controllers.AccountController      : Login is = admin
+2019-04-23 03:05:44.825  INFO 11316 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 11316 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 03:05:44.900 DEBUG 11316 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 03:05:44.901  INFO 11316 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 03:05:51.964  INFO 11316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 03:05:51.966  INFO 11316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 03:05:52.542  INFO 11316 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 03:05:55.709  INFO 11316 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 03:05:55.958  INFO 11316 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 03:05:55.962  INFO 11316 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 03:05:55.966  INFO 11316 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 03:05:56.158  INFO 11316 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 03:05:56.673  INFO 11316 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 03:05:58.365  INFO 11316 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 03:06:05.027  INFO 11316 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 03:06:07.025  INFO 11316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 03:06:07.085  INFO 11316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 03:06:07.357  INFO 11316 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 03:06:07.704  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 03:06:08.456  INFO 11316 --- [main] com.netcracker.denisik.Application       : Started Application in 25.033 seconds (JVM running for 44.207)
+2019-04-23 03:06:50.492  INFO 11316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-23 03:07:26.871  INFO 11316 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 03:07:27.621 DEBUG 11316 --- [http-nio-8080-exec-2] c.n.d.s.i.StudentServiceImpl             : Getting students from DB
+2019-04-23 03:07:27.621 DEBUG 11316 --- [http-nio-8080-exec-2] c.n.d.s.i.StudentServiceImpl             : To Json operation students
+2019-04-23 03:07:27.717 DEBUG 11316 --- [http-nio-8080-exec-2] c.n.d.s.i.StudentServiceImpl             : To XML operation students
+2019-04-23 03:07:28.157 DEBUG 11316 --- [http-nio-8080-exec-2] c.n.d.s.i.StudentServiceImpl             : To Excel operation students
+2019-04-23 03:10:29.531  INFO 32 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 32 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 03:10:29.540 DEBUG 32 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 03:10:29.541  INFO 32 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 03:10:34.616  INFO 32 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 03:10:34.618  INFO 32 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 03:10:35.248  INFO 32 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 03:10:36.778  INFO 32 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 03:10:36.923  INFO 32 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 03:10:36.925  INFO 32 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 03:10:36.927  INFO 32 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 03:10:37.023  INFO 32 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 03:10:37.234  INFO 32 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 03:10:38.341  INFO 32 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 03:10:38.443  INFO 32 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: subjectmark
+2019-04-23 03:10:38.445  INFO 32 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: subjectmark
+2019-04-23 03:10:44.092  INFO 32 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 03:10:45.249  INFO 32 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 03:10:45.323  INFO 32 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 03:10:45.499  INFO 32 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 03:10:45.709  INFO 32 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 03:10:46.169  INFO 32 --- [main] com.netcracker.denisik.Application       : Started Application in 18.463 seconds (JVM running for 22.432)
+2019-04-23 09:19:52.574  INFO 3728 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 3728 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 09:19:52.620 DEBUG 3728 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 09:19:52.620  INFO 3728 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 09:19:58.969  INFO 3728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 09:19:58.969  INFO 3728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 09:19:59.255  INFO 3728 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 09:20:01.124  INFO 3728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 09:20:01.336  INFO 3728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 09:20:01.336  INFO 3728 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 09:20:01.336  INFO 3728 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 09:20:01.524  INFO 3728 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 09:20:01.836  INFO 3728 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 09:20:03.135  INFO 3728 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 09:20:05.928  INFO 3728 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 09:20:07.095  INFO 3728 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 09:20:07.154  INFO 3728 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 09:20:07.345  INFO 3728 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 09:20:07.579  INFO 3728 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 09:20:08.152  INFO 3728 --- [main] com.netcracker.denisik.Application       : Started Application in 17.211 seconds (JVM running for 24.51)
+2019-04-23 09:20:31.075  INFO 3728 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-23 10:02:16.870  INFO 6240 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 6240 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 10:02:16.904 DEBUG 6240 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 10:02:16.905  INFO 6240 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 10:02:20.649  INFO 6240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 10:02:20.649  INFO 6240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 10:02:20.899  INFO 6240 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 10:02:21.919  INFO 6240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 10:02:22.012  INFO 6240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 10:02:22.012  INFO 6240 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 10:02:22.012  INFO 6240 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 10:02:22.075  INFO 6240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 10:02:22.254  INFO 6240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 10:02:23.051  INFO 6240 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 10:02:24.963  INFO 6240 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 10:02:25.843  INFO 6240 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 10:02:25.843  INFO 6240 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 10:02:25.983  INFO 6240 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 10:02:26.162  INFO 6240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 10:02:26.522  INFO 6240 --- [main] com.netcracker.denisik.Application       : Started Application in 11.25 seconds (JVM running for 14.573)
+2019-04-23 10:03:02.609  INFO 6240 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-23 10:03:09.131  INFO 6240 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 10:03:09.930 DEBUG 6240 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : Getting students from DB
+2019-04-23 10:03:09.931 DEBUG 6240 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : To Json operation students
+2019-04-23 10:03:09.948 DEBUG 6240 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : To XML operation students
+2019-04-23 10:03:10.293 DEBUG 6240 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : To Excel operation students
+2019-04-23 10:10:17.185  INFO 1492 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 1492 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 10:10:17.200 DEBUG 1492 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 10:10:17.200  INFO 1492 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 10:10:20.354  INFO 1492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 10:10:20.354  INFO 1492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 10:10:20.667  INFO 1492 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 10:10:21.967  INFO 1492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 10:10:22.045  INFO 1492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 10:10:22.045  INFO 1492 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 10:10:22.045  INFO 1492 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 10:10:22.110  INFO 1492 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 10:10:22.271  INFO 1492 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 10:10:23.037  INFO 1492 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 10:10:24.943  INFO 1492 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 10:10:25.840  INFO 1492 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 10:10:25.856  INFO 1492 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 10:10:25.996  INFO 1492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 10:10:26.157  INFO 1492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 10:10:26.517  INFO 1492 --- [main] com.netcracker.denisik.Application       : Started Application in 10.283 seconds (JVM running for 12.083)
+2019-04-23 10:10:41.615  INFO 1492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-23 10:10:41.711  INFO 1492 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 10:10:42.212 DEBUG 1492 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : Getting students from DB
+2019-04-23 10:10:42.212 DEBUG 1492 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : To Json operation students
+2019-04-23 10:10:42.231 DEBUG 1492 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : To XML operation students
+2019-04-23 10:10:42.342 DEBUG 1492 --- [http-nio-8080-exec-1] c.n.d.s.i.StudentServiceImpl             : To Excel operation students
+2019-04-23 12:04:53.179  INFO 9344 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 9344 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 12:04:53.218 DEBUG 9344 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 12:04:53.218  INFO 9344 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 12:05:00.995  INFO 9344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 12:05:00.995  INFO 9344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 12:05:01.296  INFO 9344 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 12:05:03.694  INFO 9344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 12:05:04.006  INFO 9344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 12:05:04.006  INFO 9344 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 12:05:04.022  INFO 9344 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 12:05:04.287  INFO 9344 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 12:05:04.611  INFO 9344 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 12:05:07.221  INFO 9344 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 12:05:10.870  INFO 9344 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 12:05:12.171  INFO 9344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 12:05:12.259  INFO 9344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 12:05:12.578  INFO 9344 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 12:05:12.811  INFO 9344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 12:05:13.603  INFO 9344 --- [main] com.netcracker.denisik.Application       : Started Application in 23.508 seconds (JVM running for 31.25)
+2019-04-23 12:05:40.505  INFO 9344 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-23 12:11:16.311  INFO 9344 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 12:11:17.210 DEBUG 9344 --- [http-nio-8080-exec-4] c.n.d.s.i.FacultyServiceImpl             : To Json operation faculties
+2019-04-23 12:11:17.230 DEBUG 9344 --- [http-nio-8080-exec-4] c.n.d.s.i.FacultyServiceImpl             : To XML operation faculties
+2019-04-23 12:11:17.675 DEBUG 9344 --- [http-nio-8080-exec-4] c.n.d.s.i.FacultyServiceImpl             : To Excel operation faculties
+2019-04-23 12:11:22.034 DEBUG 9344 --- [http-nio-8080-exec-4] c.n.d.s.i.FacultyServiceImpl             : Getting all faculties from DB
+2019-04-23 14:35:24.397  INFO 9340 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 9340 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 14:35:24.413 DEBUG 9340 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 14:35:24.413  INFO 9340 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 14:35:27.417  INFO 9340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 14:35:27.417  INFO 9340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 14:35:27.667  INFO 9340 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 14:35:28.720  INFO 9340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 14:35:28.814  INFO 9340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 14:35:28.814  INFO 9340 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 14:35:28.814  INFO 9340 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 14:35:28.876  INFO 9340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 14:35:29.048  INFO 9340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 14:35:29.813  INFO 9340 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 14:35:31.728  INFO 9340 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 14:35:32.609  INFO 9340 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 14:35:32.624  INFO 9340 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 14:35:32.765  INFO 9340 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 14:35:32.999  INFO 9340 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 14:35:33.411  INFO 9340 --- [main] com.netcracker.denisik.Application       : Started Application in 9.96 seconds (JVM running for 11.991)
+2019-04-23 14:50:49.311  INFO 9340 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-23 14:50:49.399  INFO 9340 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 14:50:49.723 DEBUG 9340 --- [http-nio-8080-exec-2] c.n.d.controllers.AccountController      : Login is = admin
+2019-04-23 15:17:49.467 DEBUG 9340 --- [http-nio-8080-exec-3] c.n.d.s.implementations.UserServiceImpl  : Start getting user by id: 8
+2019-04-23 15:17:58.884 DEBUG 9340 --- [http-nio-8080-exec-4] c.n.d.s.implementations.UserServiceImpl  : Start getting user by id: 8
+2019-04-23 15:23:42.201 DEBUG 9340 --- [http-nio-8080-exec-6] c.n.d.s.implementations.UserServiceImpl  : Start getting user by id: 8
+2019-04-23 15:23:52.602 DEBUG 9340 --- [http-nio-8080-exec-7] c.n.d.s.implementations.UserServiceImpl  : Start getting user by id: 8
+2019-04-23 15:25:22.685  INFO 5716 --- [main] com.netcracker.denisik.Application       : Starting Application on DESKTOP-OASRK73 with PID 5716 (D:\Java\NetProject\controllers\target\classes started by FD_Crash in D:\Java\NetProject)
+2019-04-23 15:25:22.685 DEBUG 5716 --- [main] com.netcracker.denisik.Application       : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-23 15:25:22.685  INFO 5716 --- [main] com.netcracker.denisik.Application       : No active profile set, falling back to default profiles: default
+2019-04-23 15:25:26.253  INFO 5716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 15:25:26.253  INFO 5716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-23 15:25:26.572  INFO 5716 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 15:25:27.598  INFO 5716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 15:25:27.691  INFO 5716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-23 15:25:27.691  INFO 5716 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-23 15:25:27.691  INFO 5716 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-04-23 15:25:27.738  INFO 5716 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-23 15:25:27.895  INFO 5716 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-04-23 15:25:28.651  INFO 5716 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-04-23 15:25:30.793  INFO 5716 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-23 15:25:31.679  INFO 5716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-23 15:25:31.695  INFO 5716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-23 15:25:31.851  INFO 5716 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-23 15:25:32.023  INFO 5716 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: FacultyController.updateFaculty_1
+2019-04-23 15:25:32.389  INFO 5716 --- [main] com.netcracker.denisik.Application       : Started Application in 10.954 seconds (JVM running for 12.845)
+2019-04-23 15:27:30.490  INFO 5716 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-23 15:27:30.606  INFO 5716 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 15:27:30.953 DEBUG 5716 --- [http-nio-8080-exec-2] c.n.d.s.implementations.UserServiceImpl  : Start getting user by id: 8

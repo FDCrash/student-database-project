@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<faculties>
+    <faculty>
+        <id>2</id>
+        <name>КСиС</name>
+        <specialities>ВМСиС</specialities>
+        <specialities>ПОИТ</specialities>
+        <specialities>string</specialities>
+    </faculty>
+    <faculty>
+        <id>1</id>
+        <name>ФИТиУ</name>
+        <specialities>АСОИ</specialities>
+        <specialities>ИИ</specialities>
+        <specialities>ИСиТ</specialities>
+        <specialities>ИТИУТС</specialities>
+    </faculty>
+    <faculty>
+        <id>3</id>
+        <name>ФРЭ</name>
+        <specialities>НОВЫЙ</specialities>
+    </faculty>
+</faculties>

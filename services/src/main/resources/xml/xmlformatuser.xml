@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+    <user>
+        <id>8</id>
+        <login>admin</login>
+        <name>admin</name>
+        <roleDTO>ADMIN</roleDTO>
+    </user>
+    <user>
+        <id>15</id>
+        <login>bsuir</login>
+        <name>admin</name>
+        <roleDTO>ADMIN</roleDTO>
+    </user>
+    <user>
+        <id>25</id>
+        <login>admin2</login>
+        <name>string</name>
+        <roleDTO>ADMIN</roleDTO>
+    </user>
+    <user>
+        <id>27</id>
+        <login>string</login>
+        <name>Вася</name>
+        <roleDTO>ADMIN</roleDTO>
+    </user>
+</users>

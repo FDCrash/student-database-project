@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: "my-first-spring-boot-application"
+  datasource:
+    url: jdbc:mysql://localhost:3306/net?useSSL=false
+    username: root
+    password: pass
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+  http:
+     encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+logging:
+  level:
+    org.springframework: ERROR
+    com.netcracker.denisik: DEBUG
+  file: logs.txt
